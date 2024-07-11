@@ -1,0 +1,16 @@
+.todo-column {
+    min-width: 20vw;
+    i {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .p-panel-title {
+        text-transform: capitalize;
+    }
+
+    .drag-zone {
+        min-height: 10vh;
+    }
+}

@@ -1,0 +1,7 @@
+#home {
+    margin: 1rem;
+
+    .item:not(:first-child) {
+        margin-top: 15px;
+    }
+}

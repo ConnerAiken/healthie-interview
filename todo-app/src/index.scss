@@ -1,0 +1,58 @@
+/**
+* The index.scss contains top-level css, it should not include any specific components.
+* This does not get automatically included in every scss file like globals.scss does.
+*/
+@import 'primeflex/primeflex.css';
+@import 'primeicons/primeicons.css';
+@import 'primereact/resources/themes/soho-light/theme.css';
+
+body {
+    margin: 5rem;
+    padding: 0;
+    background-image: url('./assets/bg.jpg');
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+small {
+    padding: 0;
+    margin: 0;
+}
+
+/* ==== Overrides ===== */
+.p-panel-header,
+.p-dialog-header {
+    background-color: $color-1;
+    color: white;
+    border-color: $color-1;
+}
+
+.p-card {
+    border-color: $color-1;
+}
+
+.p-dialog-content {
+    padding-top: 2rem;
+}
+
+.p-dialog-header-icon {
+    background-color: white;
+}
+
+.p-panel-header {
+    box-shadow: 0px 0px 2px #333;
+}
+.p-panel-content {
+    // box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.41) inset;
+    padding: 0.75rem;
+    background-color: $color-4;
+    box-shadow: 0px 0px 2px #333;
+}
+.p-button {
+    background-color: $color-1;
+}
